@@ -1,0 +1,32 @@
+# Python Sürümü: 3.8+
+
+# Derin Öğrenme ve Görüntü İşleme
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+numpy>=1.21.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# GUI ve Görselleştirme
+Pillow>=9.0.0
+# tkinter genellikle Python ile birlikte gelir, ayrı kurulum gerekmez
+
+# ROS2 Bağımlılıkları (opsiyonel - ROS2 ortamında)
+# Ros2 Humble
+# Bu paketler ROS2 kurulumunda zaten mevcut olacaktır
+# rclpy
+# sensor-msgs
+# cv-bridge
+# Clearpath husky robotu ve simülasyon ortamı için : https://github.com/clearpathrobotics/clearpath_simulator/tree/humble
+
+# Yardımcı Kütüphaneler
+setuptools>=65.0.0
+wheel>=0.38.0
+
+# Genel kulanım için CPU yeterli
+# GPU Desteği için (opsiyonel - CUDA kurulumu gerekir)
+# torch==2.0.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+# torchvision==0.15.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+# Kodun çalışması için öncelikle simülasyon ortamı sonrasında VS Code üzerinden main.py dosyasının çalıştırılması gerekmektedir.
+
